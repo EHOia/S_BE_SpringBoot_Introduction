@@ -1,6 +1,7 @@
 # S_BE_SpringBoot_Introduction
-강의<br/>
+## 참고 강의
 **inflearn** 스프링 입문 - 코드로 배우는 스프링 부트, 웹 MVC, DB 접근 기술<br/>
+
 2022/7/13 ~ <br/>
 
     Section 1. 프로젝트 환경설정
