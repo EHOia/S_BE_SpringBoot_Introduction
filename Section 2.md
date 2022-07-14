@@ -2,6 +2,8 @@
 
 ## #1. 정적 컨텐츠
 - 스프링 부트 정적 컨텐츠 기능
+- welcome page와 같이 *파일을 그대로* 웹브라우저에서 내려줌
+- 서버에서 하는 일 없음.
 - https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/spring-boot-features.html#boot-features-spring-mvc-static-content
 
 ```resources/static/hello-static.html```
@@ -19,11 +21,13 @@
 ```
 ### *실행*
 http://localhost:8080/hello-static.html
+- 작성한 파일이 그대로 반환 됨을 확인할 수 있음
 ### *정적 컨텐츠 이미지*
 ![정적 컨텐츠](./images/S2_staticContents.png)
-
+- 위처럼 요청한 이름에 대한 컨트롤러가 없을 때 resources 내부에 있는 정적 컨텐츠를 찾아서 반환함
 ## #2. MVC와 템플릿 엔진
 - MVC : Model, View, Controller
+- 정적 컨텐츠 방식과 차이점 : 서버에서 변형을 해서 내려주는 방식
 ### *Controller*
 ```java
 @Controller
