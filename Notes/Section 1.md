@@ -17,11 +17,11 @@ Development Environment
         groupId: hello
         artifactId: hello-spring
     Dependencies: Spring Web, Thymeleaf
-![springboot setting](./images/S1_setting.png)
+![springboot setting](images/S1_setting.png)
 
 hello-spring project 생성
 
-![hello-spring directory](./images/S1_projectdir.png)
+![hello-spring directory](images/S1_projectdir.png)
 - build.gradle - version 설정, external libraries 불러오는 역할
 - .gitignore - 소스코드 관리
 
